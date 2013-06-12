@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+
+# Api
+GET     /api                        controllers.Application.api
+
+# Javascript routing - make sure this comes before the static resources mapping
+GET     /assets/javascripts/dev-routes.js       controllers.Application.javascriptRoutes
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
