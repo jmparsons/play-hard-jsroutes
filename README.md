@@ -17,7 +17,7 @@ To see how it works starting with `play ~run` will show a message - "No jsRoutes
 
 Stop the server and start it with `play -Djsr=build ~run`. This will trigger the `buildroutes.sh` script after the Play application has started and should result in showing the message - "Found jsRoutes."
 
-There is a `sleep 3;` count to wait for the file to be written from the curl before play starts the server to and can be adjusted.
+There is a `sleep 3;` count to wait for the file to be written from the curl before play starts the server and can be adjusted.
 
 Modify the `buildroutes.sh` file to suit your needs.
 
