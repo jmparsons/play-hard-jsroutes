@@ -1,5 +1,5 @@
 # play-hard-jsroutes
-This [Play 2.1.x][play] application builds a hard routes file from the dynamic javascript routes file using [curl][curl].
+This [Play 2.1.x][play] application builds a hard routes file from the reverse javascript routes file using [curl][curl].
 
 # Intro
 The reason why I built this was to make it easier to create a hard copy of the routes file. By having an actual routes file versus the dynamic one, the file can be minified and packaged when run through the [r.js optimizer][rjsopt] during a distribution. Thus reducing requests and increasing speed.
